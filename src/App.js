@@ -1,27 +1,29 @@
 import { useEffect, useState } from "react";
-import { Container,Row, Col } from "reactstrap";
-import "bootstrap/dist/css/bootstrap.min.css";
-import './App.css';
+import "./App.css";
 import axios from "axios";
+import { Container, Row, Col } from "react-bootstrap";
+import MyCard from "./components/MyCard";
 
 function App() {
-
   const [details, setDetails] = useState({});
 
   const fetchDetails = async () => {
-    const {data} = await axios.get("https://randomuser.me/api/");
+    const { data } = await axios.get("https://randomuser.me/api/");
     setDetails(data.results[0]);
-    console.log(details);
-  }
+  };
 
-  useEffect( ()=> {
+  useEffect(() => {
     fetchDetails();
-  },[] );
+  }, []);
 
   return (
-    <div className="App">
-
-    </div>
+    <Container fluid className="p-4  bg-info App">
+      <Row className="justify-content-md-center">
+        <Col md="auto">
+          <MyCard details={details} />
+        </Col>
+      </Row>
+    </Container>
   );
 }
 
