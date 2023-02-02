@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/random-user-api-react/static/css/main.97b3baf3.css",
+    "main.js": "/random-user-api-react/static/js/main.358bf2d4.js",
+    "index.html": "/random-user-api-react/index.html",
+    "main.97b3baf3.css.map": "/random-user-api-react/static/css/main.97b3baf3.css.map",
+    "main.358bf2d4.js.map": "/random-user-api-react/static/js/main.358bf2d4.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.97b3baf3.css",
+    "static/js/main.358bf2d4.js"
+  ]
+}
