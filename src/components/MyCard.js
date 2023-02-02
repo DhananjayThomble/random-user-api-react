@@ -16,15 +16,15 @@ function MyCard({ details }) {
 
         <Card.Title className="text-primary">
           <h1>
-            <span className="pr-2">{details.name?.title}</span>
-            <span>{details.name?.first}</span>
-            <span>{details.name?.last}</span>
+            <span className="pr-2">{details.name?.title} </span>
+            <span>{details.name?.first} </span>
+            <span>{details.name?.last} </span>
           </h1>
         </Card.Title>
 
         <Card.Title>
           <span>
-            <BiMap /> {details.location?.city}
+            <BiMap /> {details.location?.country}
           </span>
           <br />
           <span>
