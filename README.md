@@ -2,6 +2,9 @@
 
 - Display unique person's information each time you reload the page.
 - Add feature to display the country flag of each person
+
+### Check `Learn.md` file to know how I built this project.
+
 ## Available Scripts
 
 In the project directory, you can run:
