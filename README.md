@@ -1,9 +1,7 @@
 # Getting Started with Create React App
 
-Display unique person's information each time you reload the page.
-
-### Check `Learn.md` if you want to know how I built this project.
-
+- Display unique person's information each time you reload the page.
+- Add feature to display the country flag of each person
 ## Available Scripts
 
 In the project directory, you can run:
